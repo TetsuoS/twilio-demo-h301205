@@ -1,0 +1,8 @@
+version: '3'
+services:
+  twilio:
+    build: .
+    ports:
+      - "80:80"
+      - "5000:5000"
+    command: python say.py
