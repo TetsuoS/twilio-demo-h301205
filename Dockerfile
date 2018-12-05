@@ -9,3 +9,4 @@ COPY call.py .
 RUN pip install twilio --target .
 RUN pip install Flask --target .
 
+EXPOSE 5000
